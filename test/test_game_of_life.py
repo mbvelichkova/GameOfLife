@@ -54,5 +54,4 @@ class GameOfLifeTest(unittest.TestCase):
         next_generation = self.game.next_generation()
         self.assertEqual(sorted(next_generation.keys()), sorted([Vec2D(0, 0), Vec2D(0, 1), Vec2D(1, 0), Vec2D(1, 1)]))
 
-        game = GameOfLife(next_generation)
 
